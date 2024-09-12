@@ -19,13 +19,13 @@
             <ul class="links">
                 <li id="inbox" class="inbox">
                     <a onclick="activePage = 'inbox';renderEmails(); setActiveFolder(this)" class="active">
-                        <div>Inbox</div>
+                        <div>Вхідні</div>
                         <div class="unread-count"></div>
                     </a>
                 </li>
                 <li>
                     <a onclick="activePage = 'favourites'; renderEmails(true); setActiveFolder(this)">
-                        <div>Favourites</div>
+                        <div>Відправлені</div>
                         <div></div>
                     </a>
                 </li>
@@ -35,8 +35,8 @@
             <div class="toolbar">
                 <div class="search">
                     <i class="mdi mdi-magnify"></i>
-                    <input type="text" class="search" placeholder="Search ..."
-                        title="Smart Search: Match words out of order. For example if you search for 'Allan Fife' it would match an email containing the words Allan and Fife in 'from' or 'subject', regardless of the order or position that they appear."
+                    <input type="text" class="search" placeholder="Пошук ..."
+                        title="Швидкий пошук"
                         onkeyup="searchEmails(this.value)">
                 </div>
                 <div class="order-by">
@@ -47,13 +47,20 @@
             </div>
             <ul>
                 <li>
-                    Test message
+                    Вхідне повідомлення №1
+                </li>
+                <li>
+                    Вхідне повідомлення №1
                 </li>
             </ul>
         </div>
         <div class="full-email" id="fullEmail">
-            Some text into test message!
-            It work`s
+            <p>
+                Деякий текст вхідного повідомлення
+            </p>
+            <p>
+                Ще текст
+            </p>
         </div>
     </div>
 

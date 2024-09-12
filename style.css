@@ -18,7 +18,7 @@ hr {
 /* FOLDERS */
 .folders {
   /* flex: 0 0 15%; */
-  background-color: #162943;
+  background-color: #03787c;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -44,7 +44,7 @@ hr {
   min-height: 25px;
 }
 .folders ul.links a:hover {
-  background-color: #2842ab;
+  background-color: #507c03;
   color: #fff;
 }
 
@@ -57,7 +57,7 @@ hr {
 }
 
 .folders .active {
-  background-color: #2842ab;
+  background-color: #88abae;
 }
 
 .folders .footer {
@@ -211,7 +211,8 @@ ul {
 .full-email {
   flex-grow: 1;
   padding: 25px;
-  color: #7b7f95;
+  background-color: #efe488;
+  color: black;
   height: calc(100vh - 50px);
   overflow-y: auto;
 }
